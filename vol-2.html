@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Sempre Massicci vol. II — La Primavera APS</title>
+<meta name="description" content="La seconda edizione di Sempre Massicci: riqualificazione del Mercato della frutta in via Anna Frank.">
+<meta name="theme-color" content="#16181D">
+<link rel="icon" href="favicon.svg" type="image/svg+xml">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Archivo:wght@500;700;800;900&family=Karla:wght@400;500;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<a class="salta" href="#contenuto">Vai al contenuto</a>
+
+<header class="head">
+  <div class="wrap">
+    <a href="index.html" class="logo"><span class="bollo"></span>La Primavera</a>
+    <nav class="nav" aria-label="Principale">
+      <a href="index.html">Home</a>
+      <a href="index.html#associazione">Associazione</a>
+      <a href="index.html#massicci" aria-current="page">Sempre Massicci</a>
+      <a href="index.html#progetti">Progetti</a>
+    </nav>
+    <div class="azioni">
+      <a href="index.html#sostieni" class="btn btn--spray">Sostienici</a>
+      <button class="burger" id="burger" aria-expanded="false" aria-controls="menu-mobile" aria-label="Apri il menu"><span></span></button>
+    </div>
+  </div>
+  <nav class="menu-mobile" id="menu-mobile" aria-label="Menu mobile">
+    <a href="index.html">Home</a>
+    <a href="index.html#associazione">Associazione</a>
+    <a href="index.html#massicci">Sempre Massicci</a>
+    <a href="index.html#progetti">Progetti</a>
+    <a href="index.html#contatti">Contatti</a>
+    <a href="index.html#sostieni" class="btn btn--spray">Sostienici</a>
+  </nav>
+</header>
+
+<main id="contenuto">
+
+<section class="testata-ed">
+  <div class="wrap">
+    <a class="torna" href="index.html#massicci">← Sempre Massicci</a>
+    <p class="occhiello">Seconda edizione · settembre 2024</p>
+    <h1>Mercato della frutta</h1>
+    <p class="sottotitolo">La riqualificazione degli spazi del vecchio mercato, in via Anna Frank.</p>
+  </div>
+</section>
+
+<section class="sez">
+  <div class="wrap contenuto-ed">
+    <div class="blocco-ed">
+      <h2>Il progetto</h2>
+      <p>La seconda edizione ha portato il festival in via Anna Frank, sugli spazi del
+         Mercato della frutta, con un intervento di riqualificazione attraverso la street art.</p>
+      <p>Testo da completare: come è stato scelto il luogo, il rapporto con il quartiere,
+         cosa è rimasto dopo il festival.</p>
+    </div>
+    <div class="blocco-ed">
+      <h2>Cosa è successo</h2>
+      <p>Testo da inserire: programma, artisti, laboratori e musica.</p>
+    </div>
+    <div class="scheda-dati">
+      <div><span>Data</span><b>Settembre 2024</b></div>
+      <div><span>Luogo</span><b>Via Anna Frank<br>Mercato della frutta</b></div>
+      <div><span>Artisti</span><b>Da inserire</b></div>
+      <div><span>Muri realizzati</span><b>Da inserire</b></div>
+    </div>
+    <div class="galleria-ed">
+      <div class="slot">Foto da inserire</div>
+      <div class="slot">Foto da inserire</div>
+      <div class="slot">Foto da inserire</div>
+    </div>
+  </div>
+</section>
+
+</main>
+
+<footer class="footer" id="contatti">
+  <div class="wrap">
+    <div class="footer-griglia">
+      <div>
+        <div class="logo" style="color:#fff;margin-bottom:14px"><span class="bollo"></span>La Primavera</div>
+        <p>Associazione di promozione sociale<br>Santeramo in Colle (BA)</p>
+      </div>
+      <div>
+        <h4>Naviga</h4>
+        <ul>
+          <li><a href="index.html#associazione">Associazione</a></li>
+          <li><a href="index.html#massicci">Sempre Massicci</a></li>
+          <li><a href="index.html#progetti">Progetti</a></li>
+          <li><a href="index.html#sostieni">Sostienici</a></li>
+        </ul>
+      </div>
+      <div>
+        <h4>Contatti</h4>
+        <ul>
+          <li>Via —, 70029<br>Santeramo in Colle (BA)</li>
+          <li><a href="tel:+390000000000">+39 000 000 0000</a></li>
+          <li><a href="mailto:info@laprimavera.org">info@laprimavera.org</a></li>
+          <li>C.F. / P.IVA —</li>
+        </ul>
+        <div class="social-footer">
+          <a href="https://www.instagram.com/_la_primavera_/">Instagram</a>
+          <a href="index.html#">Facebook</a>
+        </div>
+      </div>
+      <div>
+        <h4>Resta aggiornato</h4>
+        <div class="newsletter">
+          <input type="email" placeholder="La tua email" aria-label="La tua email">
+          <button class="btn btn--spray" type="button">Iscriviti</button>
+        </div>
+      </div>
+    </div>
+    <div class="piede">
+      <span>© 2026 La Primavera APS — Tutti i diritti riservati</span>
+      <span><a href="index.html#">Privacy</a> · <a href="index.html#">Cookie</a> · <a href="index.html#">Statuto</a></span>
+    </div>
+  </div>
+</footer>
+<script>
+(function(){
+  var b=document.getElementById('burger'), m=document.getElementById('menu-mobile');
+  b.addEventListener('click',function(){
+    var a=m.classList.toggle('aperto');
+    b.setAttribute('aria-expanded',a?'true':'false');
+  });
+})();
+</script>
+
+</body>
+</html>
